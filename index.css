@@ -1,14 +1,16 @@
 /* PRIMARY COLOUR : 4CAF4F */
 /* SECOND COLOUR : 263238 */
 
+/* SILVER COLOUR : F5F7FA */
+
 html{
     padding: 0;
     margin: 0;
 }
 
 .container {
-    margin-left: 40px;
-    margin-right: 40px;
+    margin-left: 100px;
+    margin-right: 100px;
 }
 
 .navbar {
@@ -49,4 +51,32 @@ a{
 .btn-register:hover {
     background-color: #263238;
     
+}
+.hero {
+    background-color: #F5F7FA ;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 100px 0px;
+    margin-left: -100px !important;
+    margin-right: -100px !important;
+    height: 400px;
+    align-items: center;
+}
+
+h2 {
+    font-size: 70px;
+    font-family: poppins;
+}
+h3 {
+    font-size: 70px;
+    font-family: poppins;
+    color: #4CAF4F;
+    margin-top: -90px;
+    margin-bottom: -10px;
+}
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    color: #89939E;
+
 }
