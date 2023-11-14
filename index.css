@@ -1,0 +1,52 @@
+/* PRIMARY COLOUR : 4CAF4F */
+/* SECOND COLOUR : 263238 */
+
+html{
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.navbar {
+    height: 70px;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar-link {
+    display: flex;
+    gap: 25px;
+    align-items: center;
+}
+
+a{
+    text-decoration: none;
+    color: #263238;
+    font-weight: bold;
+    font-family: poppins;
+}
+
+.btn-register {
+    background-color: #4CAF4F;
+    text-decoration: none;
+    border: none;
+    padding: 12px 30px 12px;
+    border-radius: 5px;
+    color: #fff; 
+    font-family: poppins;
+}
+
+.logo {
+    width: 130px ;
+}
+
+.btn-register:hover {
+    background-color: #263238;
+    
+}
