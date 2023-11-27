@@ -133,3 +133,54 @@ p {
 .membership:hover {
     background-color: #F5F7FA;
 }
+.pixelgrade {
+    display: flex;
+}
+.pixelgrade img {
+    width: 400px;
+    margin-left: 10px; 
+}
+.pixelgrade h1 {
+    font-family: poppins;
+    font-size: 40px;
+}
+.pixelgrade h2 {
+    font-family: poppins;
+    font-size: 15px;
+    color: #89939E;
+    margin-top: -15px;
+}
+.learn-more {
+    background-color: #4CAF4F;
+    text-decoration: none;
+    border: none;
+    padding: 12px 30px 12px;
+    border-radius: 5px;
+    color: #fff; 
+    font-family: poppins;
+    margin-top: 10px;
+}
+.reinvent {
+    display: flex;
+    justify-content: space-around;
+}
+.reinvent-text h4 {
+    font-size: 30px;
+    font-family: poppins;
+}
+.reinvent-text span {
+    color: #4CAF4F;
+}
+.reinvent-text h5 {
+    font-family: poppins;
+    font-size: 12px;
+    margin-top: -40px;
+}
+.logo-reinvent-pack {
+    display: flex;
+    flex-direction: column;
+}
+.logo-reinvent-1 img {
+    width: 35px;
+
+}
