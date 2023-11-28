@@ -135,6 +135,8 @@ p {
 }
 .pixelgrade {
     display: flex;
+    margin-top: 15px;
+    margin-bottom: 15px;
 }
 .pixelgrade img {
     width: 400px;
@@ -142,7 +144,7 @@ p {
 }
 .pixelgrade h1 {
     font-family: poppins;
-    font-size: 40px;
+    font-size: 30px;
 }
 .pixelgrade h2 {
     font-family: poppins;
@@ -163,6 +165,10 @@ p {
 .reinvent {
     display: flex;
     justify-content: space-around;
+    align-items: center;
+    background-color: #F5F7FA ;
+    margin-left: -100px !important;
+    margin-right: -100px !important;
 }
 .reinvent-text h4 {
     font-size: 30px;
@@ -170,17 +176,44 @@ p {
 }
 .reinvent-text span {
     color: #4CAF4F;
+    /* margin-top: -10px !important; */
 }
 .reinvent-text h5 {
     font-family: poppins;
-    font-size: 12px;
-    margin-top: -40px;
+    font-size: 17px;
+    margin-top: -35px;
 }
 .logo-reinvent-pack {
     display: flex;
     flex-direction: column;
 }
+.logo-reinvent-1 {
+    display: flex;
+}
+.logo-reinvent-2 {
+    display: flex;
+}
 .logo-reinvent-1 img {
-    width: 35px;
-
+    width: 50px;
+    height: 50px;
+}
+.reinvent-freinds {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.caption-reinvent {
+    font-size: 30px;
+    color: #263238;
+    font-weight: bold;
+    font-family: poppins;
+}
+.sec-caption {
+    font-family: poppins;
+    font-size: 20px;
+    margin-top: -30px;
+}
+.logo-reinvent-2 img {
+    width: 50px;
+    height: 50px;
 }
