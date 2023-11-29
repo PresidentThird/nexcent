@@ -216,4 +216,85 @@ p {
 .logo-reinvent-2 img {
     width: 50px;
     height: 50px;
+}   
+.testimoni {
+    display: flex;
+    gap: 20px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+.testimoni img {
+    width: 320px;
+    height: 320px;
+}
+.caption-testi {
+    font-family: poppins;
+    color: #717171;
+    font-size: 14px;
+    font-weight: 700;
+    margin-top: -1px;
+}
+.name-testi {
+    font-family: poppins;
+    color: #4CAF4F;
+    font-size: 19px;
+    font-weight: bold;
+}
+.role-testi {
+    font-family: poppins;
+    font-size: 17px;
+    margin-top: -15px;
+}
+.logo-testi img {
+    width: 60px;
+    height: 60px;
+}
+.logo-testi {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: poppins;
+}
+.logo-testi a {
+    color: #4CAF4F;
+}
+.article {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.header-article {
+    font-family: poppins;
+    font-size: 40px;
+    color: #263238;
+    font-weight: bold; 
+}
+.capt-article {
+    font-family: poppins;
+    margin-top: -30px;
+}
+.articles {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: 30px;
+}
+.card-article img {
+    width: 340px;
+}
+.caption-card {
+    background-color: #F5F7FA ;
+    width: 280px;
+    border-radius: 10px;
+    margin-top: -50px;
+    padding: 5px;
+}
+.caption-card a {
+    color: #4CAF4F;
+}
+.card-article {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
